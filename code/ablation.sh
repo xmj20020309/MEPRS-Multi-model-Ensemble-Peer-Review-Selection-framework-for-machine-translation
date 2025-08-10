@@ -1,0 +1,16 @@
+python  ablation.py --src_lan en --tgt_lan zh --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan zh --tgt_lan en --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan de --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan de --tgt_lan en --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan ru --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan ru --tgt_lan en --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan he --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan he --tgt_lan en --forward it --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan zh --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan zh --tgt_lan en --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan de --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan de --tgt_lan en --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan ru --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan ru --tgt_lan en --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan en --tgt_lan he --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
+python  ablation.py --src_lan he --tgt_lan en --forward tear --metric bleurt --models gpt-3.5-turbo gpt-4o claude-3-opus claude-3.5-sonnet gemini-pro --dimensions fluency style terminology accuracy score
