@@ -1,0 +1,5 @@
+nohup: ignoring input
+/root/autodl-tmp/meprs/revision_analysis/train_external_mqm_charcnn.py:617: RuntimeWarning: Mean of empty slice
+  summary[f"{key}_mean"] = float(np.nanmean(values))
+/root/autodl-tmp/venvs/meprs-cu128/lib/python3.12/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,

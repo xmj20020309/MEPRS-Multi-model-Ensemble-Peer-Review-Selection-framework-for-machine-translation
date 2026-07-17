@@ -1,0 +1,5 @@
+﻿external_direction,year,output_rows,src_ref_rows,external_text_candidates
+zh-en,wmt23,80,80,1360
+en-de,wmt23,80,80,1120
+en-ru,wmt22,80,58,1360
+he-en,wmt23,80,80,1120

@@ -1,0 +1,11 @@
+﻿metric,value
+rows_total,876
+human_rows_nonidentical,528
+human_rows_completed,528
+auto_identical_ties,348
+meprs_wins_total,273
+best_baseline_wins_total,187
+ties_total,416
+human_ties_nonidentical,68
+sign_test_p_total_excluding_ties,7.072412951522786e-05
+sign_test_p_human_only_excluding_ties,7.072412951522786e-05

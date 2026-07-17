@@ -1,0 +1,2 @@
+﻿num_conditions,mean_pairwise_chrf_similarity,mean_pairwise_token_f1_similarity,mean_bleurt_candidate_range,pearson_chrf_similarity_vs_gain,spearman_chrf_similarity_vs_gain,pearson_bleurt_range_vs_gain,spearman_bleurt_range_vs_gain
+16,0.6931170200036347,0.6971335355436691,20.767532554920763,-0.08410013840009234,-0.21176470588235297,-0.32481685965611806,-0.0588235294117647

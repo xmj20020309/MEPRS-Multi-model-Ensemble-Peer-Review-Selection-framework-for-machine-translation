@@ -1,0 +1,5 @@
+﻿local_pair_checked,reverse_pair_added,external_direction,local_sentence_count,high_confidence_matches_ge_0_92,medium_confidence_matches_ge_0_75
+zh-en-new,en-zh-new,zh-en,200,48,78
+en-de-new,de-en-new,en-de,200,51,79
+en-ru-new,ru-en-new,en-ru,200,69,82
+he-en-new,en-he-new,he-en,200,69,80

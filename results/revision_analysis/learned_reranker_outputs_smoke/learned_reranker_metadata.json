@@ -1,0 +1,21 @@
+{
+  "data_dir": "F:\\6-23 谢明骏返修\\23部分代码返修\\MEPRS_repo\\MEPRS-Multi-model-Ensemble-Peer-Review-Selection-framework-for-machine-translation-main\\dataset",
+  "output_dir": "F:\\6-23 谢明骏返修\\23部分代码返修\\MEPRS_repo\\MEPRS-Multi-model-Ensemble-Peer-Review-Selection-framework-for-machine-translation-main\\revision_analysis\\learned_reranker_outputs_smoke",
+  "feature_dimensions": 52,
+  "model_codes": [
+    "G35",
+    "G4o",
+    "C3",
+    "C35",
+    "GP"
+  ],
+  "dimensions": [
+    "score",
+    "accuracy",
+    "fluency",
+    "style",
+    "terminology"
+  ],
+  "device": "cpu",
+  "note": "Candidate-level neural regression from LLM reviewer scores to BLEURT; selection is evaluated leave-one pair/strategy condition out."
+}

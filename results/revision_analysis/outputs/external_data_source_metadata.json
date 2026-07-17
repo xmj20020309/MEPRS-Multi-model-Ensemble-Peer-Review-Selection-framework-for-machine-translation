@@ -1,0 +1,36 @@
+{
+  "raw_base": "https://raw.githubusercontent.com/fzp0424/self_correct_mt/main",
+  "data_dir": "F:\\6-23 谢明骏返修\\23部分代码返修\\MEPRS_repo\\MEPRS-Multi-model-Ensemble-Peer-Review-Selection-framework-for-machine-translation-main\\dataset",
+  "output_dir": "F:\\6-23 谢明骏返修\\23部分代码返修\\MEPRS_repo\\MEPRS-Multi-model-Ensemble-Peer-Review-Selection-framework-for-machine-translation-main\\revision_analysis\\outputs",
+  "external_sources": {
+    "zh-en": {
+      "year": "wmt23",
+      "output_csv": "dataset/mqm/wmt23/zh-en/output.csv",
+      "filtered_csv": "dataset/mqm/wmt23/zh-en/zh-en_final_file_filtered.csv",
+      "sample_index": "dataset/mqm/wmt23/zh-en/sample.index",
+      "covered_local_pairs": "zh-en-new; en-zh-new by reversing src/ref"
+    },
+    "en-de": {
+      "year": "wmt23",
+      "output_csv": "dataset/mqm/wmt23/en-de/output.csv",
+      "filtered_csv": "dataset/mqm/wmt23/en-de/en-de_final_file_filtered.csv",
+      "sample_index": "dataset/mqm/wmt23/en-de/sample.index",
+      "covered_local_pairs": "en-de-new; de-en-new by reversing src/ref"
+    },
+    "en-ru": {
+      "year": "wmt22",
+      "output_csv": "dataset/mqm/wmt22/en-ru/output.csv",
+      "filtered_csv": "dataset/mqm/wmt22/en-ru/en-ru_final_file_filtered.csv",
+      "sample_index": "dataset/mqm/wmt22/en-ru/sample.index",
+      "covered_local_pairs": "en-ru-new; ru-en-new by reversing src/ref"
+    },
+    "he-en": {
+      "year": "wmt23",
+      "output_csv": "dataset/mqm/wmt23/he-en/output.csv",
+      "filtered_csv": "dataset/mqm/wmt23/he-en/he-en_final_file_filtered.csv",
+      "sample_index": "dataset/mqm/wmt23/he-en/sample.index",
+      "covered_local_pairs": "he-en-new; en-he-new by reversing src/ref"
+    }
+  },
+  "matching_note": "Alignment was skipped. Run without --skip_alignment to create candidate matches."
+}

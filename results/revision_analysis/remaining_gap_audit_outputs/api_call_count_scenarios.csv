@@ -1,0 +1,7 @@
+﻿scenario,n_generators,n_reviewers,sentences_per_condition,conditions,generation_calls,review_calls,total_calls,cost_note
+full_MEPRS_5_generators_5_reviewers_per_condition,5,5,200,1,1000,5000,6000,Dollar cost requires model-specific token logs and current API rates; not inferable from released score files.
+full_MEPRS_5x5_all_16_conditions,5,5,200,16,16000,80000,96000,Dollar cost requires model-specific token logs and current API rates; not inferable from released score files.
+low_cost_5_generators_3_reviewers_per_condition,5,3,200,1,1000,3000,4000,Dollar cost requires model-specific token logs and current API rates; not inferable from released score files.
+low_cost_3_generators_5_reviewers_per_condition,3,5,200,1,600,3000,3600,Dollar cost requires model-specific token logs and current API rates; not inferable from released score files.
+low_cost_3_generators_3_reviewers_per_condition,3,3,200,1,600,1800,2400,Dollar cost requires model-specific token logs and current API rates; not inferable from released score files.
+low_cost_2_generators_5_reviewers_per_condition,2,5,200,1,400,2000,2400,Dollar cost requires model-specific token logs and current API rates; not inferable from released score files.

@@ -1,0 +1,4 @@
+model,result_file,items,ok,failed,meprs_wins,best_baseline_wins,ties,non_tie_items,meprs_win_rate_excluding_ties,two_sided_binomial_p_excluding_ties
+Claude Opus 4.8,raw_results/claude_opus4_8_llm_ab_judge_results.csv,528,528,0,154,137,237,291,0.529210,0.348294233315
+GPT-5.5,raw_results/gpt55_llm_ab_judge_results.csv,528,528,0,230,169,129,399,0.576441,0.00262255151397
+Gemini 3.1 Pro Preview,raw_results/gemini31_pro_preview_llm_ab_judge_results.csv,528,528,0,174,151,203,325,0.535385,0.222278204287

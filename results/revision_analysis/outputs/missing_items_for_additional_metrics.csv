@@ -1,0 +1,6 @@
+﻿item,status,why_needed
+source sentences,not present in current dataset directory,"COMET/CometKIWI inputs, exact prompt audit, human evaluation sheets"
+reference translations,not present in current dataset directory,"COMET-22, chrF++, BLEU, MBR-COMET, MBR-BLEURT, MetricX"
+WMT sample IDs,not present in current dataset directory,rebuilding exact 200-sentence subsets from WMT22/WMT23
+API token/latency logs,not present in current dataset directory,actual USD and latency cost table
+raw prompts and raw LLM responses,not present in current dataset directory,auditability of parsed reviewer scores and zero-score cases

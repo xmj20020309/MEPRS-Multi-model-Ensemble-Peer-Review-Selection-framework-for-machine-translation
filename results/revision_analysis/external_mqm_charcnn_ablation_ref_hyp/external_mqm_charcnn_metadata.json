@@ -1,0 +1,47 @@
+{
+  "data_dir": "public_data",
+  "output_dir": "revision_analysis/external_mqm_charcnn_ablation_ref_hyp",
+  "device": "cuda",
+  "rows_by_pair": {
+    "en-de": 1040,
+    "en-ru": 944,
+    "he-en": 1040,
+    "zh-en": 1280
+  },
+  "segments_by_pair": {
+    "en-de": 80,
+    "en-ru": 58,
+    "he-en": 80,
+    "zh-en": 80
+  },
+  "arguments": {
+    "data_dir": "public_data",
+    "output_dir": "revision_analysis/external_mqm_charcnn_ablation_ref_hyp",
+    "device": "cuda",
+    "epochs": 25,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "batch_size": 64,
+    "max_chars": 768,
+    "input_mode": "ref_hyp",
+    "char_dim": 96,
+    "channels": 96,
+    "kernels": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 5,
+    "valid_fraction": 0.1,
+    "min_char_count": 2,
+    "max_vocab": 6000,
+    "smoke_rows_per_pair": null
+  }
+}

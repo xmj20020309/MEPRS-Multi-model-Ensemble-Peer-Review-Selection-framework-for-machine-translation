@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+*.log
+*.tmp
+*.bak
+api_keys*
+secrets*
+credentials*
+checkpoints/
+*.pt
+*.pth
+*.ckpt

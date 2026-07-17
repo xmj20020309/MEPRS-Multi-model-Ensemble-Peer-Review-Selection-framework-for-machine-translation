@@ -1,0 +1,51 @@
+{
+  "data_dir": "revision_analysis/google_mqm_prepared/google_mqm_segment_scores.csv",
+  "output_dir": "revision_analysis/google_mqm_charcnn_outputs_hyp_only_extended",
+  "device": "cuda",
+  "rows_by_pair": {
+    "en-de": 144805,
+    "en-es": 11273,
+    "he-en": 12427,
+    "ja-zh": 12806,
+    "zh-en": 222178
+  },
+  "segments_by_pair": {
+    "en-de": 4854,
+    "en-es": 623,
+    "he-en": 751,
+    "ja-zh": 560,
+    "zh-en": 5824
+  },
+  "arguments": {
+    "data_dir": "revision_analysis/google_mqm_prepared/google_mqm_segment_scores.csv",
+    "output_dir": "revision_analysis/google_mqm_charcnn_outputs_hyp_only_extended",
+    "device": "cuda",
+    "epochs": 20,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "batch_size": 256,
+    "max_chars": 512,
+    "input_mode": "hyp_only",
+    "char_dim": 96,
+    "channels": 96,
+    "kernels": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 5,
+    "valid_fraction": 0.1,
+    "min_char_count": 2,
+    "max_vocab": 6000,
+    "smoke_rows_per_pair": null,
+    "skip_predictions": true,
+    "save_checkpoints": true
+  }
+}

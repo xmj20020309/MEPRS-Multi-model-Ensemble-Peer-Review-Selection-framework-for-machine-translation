@@ -1,0 +1,17 @@
+﻿file,language_pair,raw_rows,clean_rows,segment_rows,systems,segments,dropped_reason,error
+generalMT2022__ende__mqm_generalMT2022_ende.tsv,en-de,27096,27084,27039,16.0,1315.0,,
+generalMT2022__enru__mqm_generalMT2022_enru.tsv,en-ru,33981,0,0,,,no valid severity rows,
+generalMT2022__enzh__mqm_generalMT2022_enzh.tsv,unknown,0,0,0,,,,'doc'
+generalMT2022__zhen__mqm_generalMT2022_zhen.tsv,zh-en,46419,45449,45379,16.0,1666.0,,
+generalMT2023__ende__mqm_generalMT2023_ende.tsv,en-de,21861,21099,21044,13.0,460.0,,
+generalMT2023__heen__mqm_generalMT2023_heen.tsv,he-en,12560,12445,12427,13.0,751.0,,
+generalMT2023__zhen__mqm_generalMT2023_zhen.tsv,zh-en,49633,48643,48214,16.0,1177.0,,
+generalMT2024__mqm_generalMT2024_ende.tsv,en-de,18373,18365,18193,19.0,487.0,,
+generalMT2024__mqm_generalMT2024_enes.tsv,en-es,11342,11326,11273,15.0,623.0,,
+generalMT2024__mqm_generalMT2024_jazh.tsv,ja-zh,12872,12872,12860,15.0,560.0,,
+newstest2020__ende__mqm_newstest2020_ende.tsv,en-de,79020,77275,59970,10.0,1418.0,,
+newstest2020__zhen__mqm_newstest2020_zhen.tsv,zh-en,124292,123229,102532,10.0,2000.0,,
+newstest2021__ende__mqm_newstest2021_ende.tsv,en-de,11543,11504,11469,17.0,996.0,,
+newstest2021__zhen__mqm_newstest2021_zhen.tsv,zh-en,17168,17168,17149,15.0,649.0,,
+ted__ende__mqm_ted_ende.tsv,en-de,8435,8435,8429,14.0,529.0,,
+ted__zhen__mqm_ted_zhen.tsv,zh-en,9915,9915,9905,15.0,529.0,,

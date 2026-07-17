@@ -1,0 +1,17 @@
+﻿pair,strategy,candidate_txt,candidate_bleurt,iterative_txt,iterative_bleurt,review_score_files,dimension_files,total_strategy_files
+de-en-new,it,5,5,25,25,150,100,310
+de-en-new,tear,5,5,25,25,150,100,310
+en-de-new,it,5,5,25,25,150,100,310
+en-de-new,tear,5,5,25,25,150,100,310
+en-he-new,it,5,5,25,25,150,100,310
+en-he-new,tear,5,5,25,25,150,100,310
+en-ru-new,it,5,5,25,25,150,100,310
+en-ru-new,tear,5,5,25,25,150,100,310
+en-zh-new,it,5,5,25,25,150,100,310
+en-zh-new,tear,5,5,25,25,150,100,310
+he-en-new,it,5,5,25,25,150,100,310
+he-en-new,tear,5,5,25,25,150,100,310
+ru-en-new,it,5,5,25,25,150,100,310
+ru-en-new,tear,5,5,25,25,150,100,310
+zh-en-new,it,5,5,25,25,150,100,310
+zh-en-new,tear,5,5,25,25,150,100,310

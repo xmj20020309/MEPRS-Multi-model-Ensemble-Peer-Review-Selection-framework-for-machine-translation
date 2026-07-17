@@ -1,0 +1,4 @@
+model,comparable_non_tie_items,agreements,disagreements,agreement_rate,agree_on_meprs,agree_on_best_baseline
+Claude Opus 4.8,267,241,26,0.902622,138,103
+GPT-5.5,337,307,30,0.910979,184,123
+Gemini 3.1 Pro Preview,297,271,26,0.912458,154,117

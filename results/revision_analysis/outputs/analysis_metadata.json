@@ -1,0 +1,18 @@
+{
+  "data_dir": "F:\\6-23 \u8c22\u660e\u9a8f\u8fd4\u4fee\\23\u90e8\u5206\u4ee3\u7801\u8fd4\u4fee\\MEPRS_repo\\MEPRS-Multi-model-Ensemble-Peer-Review-Selection-framework-for-machine-translation-main\\dataset",
+  "output_dir": "F:\\6-23 \u8c22\u660e\u9a8f\u8fd4\u4fee\\23\u90e8\u5206\u4ee3\u7801\u8fd4\u4fee\\MEPRS_repo\\MEPRS-Multi-model-Ensemble-Peer-Review-Selection-framework-for-machine-translation-main\\revision_analysis\\outputs",
+  "models": {
+    "G35": "GPT-3.5-Turbo",
+    "G4o": "GPT-4o",
+    "C3": "Claude-3-Opus",
+    "C35": "Claude-3.5-Sonnet",
+    "GP": "Gemini-Pro"
+  },
+  "strategies": [
+    "it",
+    "tear"
+  ],
+  "bootstrap_iterations": 10000,
+  "random_seed": 20260623,
+  "note": "Scores are BLEURT-based and use existing released candidate and reviewer score files only."
+}

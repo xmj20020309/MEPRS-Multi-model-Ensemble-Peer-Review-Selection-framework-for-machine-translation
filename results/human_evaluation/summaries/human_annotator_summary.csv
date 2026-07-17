@@ -1,0 +1,5 @@
+﻿annotator_file,rows_total,exact_identical_auto_ties,nonidentical_pairs_evaluated,meprs_wins,best_baseline_wins,human_ties_nonidentical,sign_test_excluding_ties_p,meprs_as_A,meprs_as_B,raw_A_preferences,raw_B_preferences,raw_tie_preferences
+final_result_v2.csv,876,348,528,283,202,43,0.00027231993525132976,282,246,271,214,43
+final_result_v3.csv,876,348,528,226,169,133,0.004775195254912945,282,246,205,190,133
+final_result_v4.csv,876,348,528,273,187,68,7.072412951522778e-05,282,246,284,176,68
+final_result_v5.csv,876,348,528,240,192,96,0.02363016016366199,282,246,247,185,96
